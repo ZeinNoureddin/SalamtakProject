@@ -1,8 +1,9 @@
 #include "payment.h"
 #include "ui_payment.h"
+#include "inpatient.h"
 
-Account tmp(920.5, 5000);
-//CurrentData CR;
+Account tmp(920.5, 5000, 80);
+inpatient currPatient;
 
 Payment::Payment(QWidget *parent) :
     QMainWindow(parent),
@@ -52,6 +53,38 @@ Payment::Payment(QWidget *parent) :
         ui->outstandingAfterDiscountLabel->hide();
         ui->outstandingAfterDiscountAmount->hide();
     }
+
+    currPatient.set_isRoom_approved(false);
+    if(currPatient.get_isRoom_approved() == true){
+        ui->DrName->hide();
+        ui->DrNameToDisplay->hide();
+        ui->timeLabel->hide();
+        ui->timeToDisplay->hide();
+        ui->dateLabel->hide();
+        ui->dateToDisplay->hide();
+
+        ui->typeOfPaymentToDisplay->setText("Room reservation.");
+        ui->roomTypeToDisplay->setText(currPatient.getPatientRoomType());
+        ui->numberOfNightsToDisplay->setText(QString::number(currPatient.get_no_of_nights()));
+        ui->assMedPriceToDisplay->setText(QString::number(currPatient.getMedicineTotalPrice()));
+    }
+    else{
+        ui->roomTypeToDisplay->hide();
+        ui->typeOfRoomLabel->hide();
+        ui->numberOfNights->hide();
+        ui->numberOfNightsToDisplay->hide();
+        ui->assMedPriceLabel->hide();
+        ui->assMedPriceToDisplay->hide();
+
+        ui->typeOfPaymentToDisplay->setText("Doctor consultation prior\nto room reservation.");
+        QString DrName = "Samer";
+        currPatient.setDrToMeet(DrName);// I'm setting it here just to test
+        ui->DrNameToDisplay->setText(currPatient.getDrToMeet());
+        //AHMED THIS IS WHERE YOU SHOULD DISPLAY THE DATE AND TIME
+//        ui->dateToDisplay->setText();
+//        ui->timeToDisplay->setText();
+    }
+
 }
 
 Payment::~Payment()
@@ -203,7 +236,6 @@ void Payment::on_PayButton_clicked()
         }
 
     }
-    //display dynamic window with invoice
 }
 
 void Payment::on_redeemPointsButton_clicked()

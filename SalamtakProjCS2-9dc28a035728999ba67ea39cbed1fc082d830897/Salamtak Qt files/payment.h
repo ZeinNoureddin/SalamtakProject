@@ -21,7 +21,6 @@ private slots:
 
     void on_PayButton_clicked();
 
-
     void on_paymentMethodCombo_activated(int index);
 
     void on_redeemPointsButton_clicked();

@@ -14,10 +14,12 @@ SOURCES += \
     emergency.cpp \
     emergencypatient.cpp \
     homepage.cpp \
+    inpatient.cpp \
     invoice.cpp \
     labreserve.cpp \
     main.cpp \
     medpayment.cpp \
+    outpatient.cpp \
     patient.cpp \
     patient_medical_records.cpp \
     payment.cpp \
@@ -26,6 +28,8 @@ SOURCES += \
     reception.cpp \
     registeration.cpp \
     reservation.cpp \
+    room.cpp \
+    roomreservation.cpp \
     salamtak.cpp \
     userprofile.cpp
 
@@ -35,9 +39,11 @@ HEADERS += \
     emergency.h \
     emergencypatient.h \
     homepage.h \
+    inpatient.h \
     invoice.h \
     labreserve.h \
     medpayment.h \
+    outpatient.h \
     patient.h \
     patient_medical_records.h \
     payment.h \
@@ -46,6 +52,8 @@ HEADERS += \
     reception.h \
     registeration.h \
     reservation.h \
+    room.h \
+    roomreservation.h \
     salamtak.h \
     userprofile.h
 
@@ -60,6 +68,7 @@ FORMS += \
     reception.ui \
     registeration.ui \
     reservation.ui \
+    roomreservation.ui \
     salamtak.ui \
     userprofile.ui
 

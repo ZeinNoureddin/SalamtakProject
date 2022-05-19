@@ -1,8 +1,8 @@
 #ifndef INVOICE_H
 #define INVOICE_H
+#include "paymentaccount.h"
 
 #include <QMainWindow>
-#include "currentdata.h"
 
 class Account;
 

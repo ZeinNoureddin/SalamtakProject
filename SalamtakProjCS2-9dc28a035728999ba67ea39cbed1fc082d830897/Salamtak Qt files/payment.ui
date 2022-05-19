@@ -123,11 +123,18 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>90</y>
+      <x>50</x>
+      <y>130</y>
       <width>161</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Payment</string>
@@ -192,92 +199,19 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>410</y>
+      <x>50</x>
+      <y>340</y>
       <width>101</width>
       <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <italic>true</italic>
+     </font>
+    </property>
     <property name="text">
      <string>Outstanding pay: </string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>130</y>
-      <width>261</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Type of Payment: Medicine</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="details3">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>160</y>
-      <width>241</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>details3</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>190</y>
-      <width>241</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>details4</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>220</y>
-      <width>241</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>details5</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_13">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>70</y>
-      <width>71</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Points:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="redeemPointsButton">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>70</y>
-      <width>111</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Redeem points</string>
     </property>
    </widget>
    <widget class="QPushButton" name="PayButton">
@@ -371,47 +305,11 @@
      <string>random text</string>
     </property>
    </widget>
-   <widget class="QScrollArea" name="scrollArea">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>250</y>
-      <width>211</width>
-      <height>85</height>
-     </rect>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>209</width>
-       <height>83</height>
-      </rect>
-     </property>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>201</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>detail1</string>
-      </property>
-     </widget>
-    </widget>
-   </widget>
    <widget class="QLabel" name="outstandingPayLabel">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>410</y>
+      <x>150</x>
+      <y>340</y>
       <width>49</width>
       <height>21</height>
      </rect>
@@ -472,27 +370,19 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="points">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>70</y>
-      <width>49</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="WalletDiscountLabel">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>390</y>
+      <x>50</x>
+      <y>320</y>
       <width>101</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>true</italic>
+     </font>
     </property>
     <property name="text">
      <string>E_Wallet discount: </string>
@@ -501,8 +391,8 @@
    <widget class="QLabel" name="discountAmount">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>390</y>
+      <x>150</x>
+      <y>320</y>
       <width>49</width>
       <height>21</height>
      </rect>
@@ -514,11 +404,16 @@
    <widget class="QLabel" name="outstandingAfterDiscountLabel">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>430</y>
+      <x>50</x>
+      <y>360</y>
       <width>191</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>true</italic>
+     </font>
     </property>
     <property name="text">
      <string>Outstanding pay after discount: </string>
@@ -527,8 +422,8 @@
    <widget class="QLabel" name="outstandingAfterDiscountAmount">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>430</y>
+      <x>230</x>
+      <y>360</y>
       <width>49</width>
       <height>21</height>
      </rect>
@@ -549,6 +444,208 @@
     <property name="text">
      <string>Payment successful.</string>
     </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>60</y>
+      <width>186</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Points:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="points">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="redeemPointsButton">
+       <property name="text">
+        <string>Redeem points</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>160</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="DrReservationGrid">
+     <item row="0" column="0">
+      <widget class="QLabel" name="DrName">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Dr. Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="dateLabel">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Date:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="DrNameToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="timeLabel">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Time: </string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="dateToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="timeToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>210</y>
+      <width>221</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="roomReservationGrid">
+     <item row="1" column="0">
+      <widget class="QLabel" name="numberOfNights">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Number of nights</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="roomTypeToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="typeOfRoomLabel">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Type of room</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="numberOfNightsToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="assMedPriceLabel">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Assigned medicine total price</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="assMedPriceToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string>Type of Payment:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="typeOfPaymentToDisplay">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

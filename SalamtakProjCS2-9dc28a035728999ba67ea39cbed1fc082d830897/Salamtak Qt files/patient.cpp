@@ -17,3 +17,15 @@ void reserve_lab_test()
 {
 
 }
+
+QVector<pharmacyItem>* patient::get_meds()
+{
+    return &pharmacy_items;
+}
+QVector<pharmacyItem> patient::getMedsNotPointer(){
+    return pharmacy_items;
+}
+
+float patient::getMedicineTotalPrice(){
+    return patientAccount.getMedicinePayment();
+}

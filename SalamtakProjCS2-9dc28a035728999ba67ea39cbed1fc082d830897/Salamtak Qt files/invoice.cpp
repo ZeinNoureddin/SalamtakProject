@@ -1,7 +1,7 @@
 #include "invoice.h"
 #include "ui_invoice.h"
 
-Account tmp2(920.5, 5000);
+Account tmp2(920.5, 5000, 80);
 
 invoice::invoice(QWidget *parent) :
     QMainWindow(parent),

@@ -9,7 +9,7 @@
 class CurrentData
 {
 public:
-    Account* tmp = new Account(920.5, 5000);
+    Account* tmp = new Account(920.5, 5000, 80);
     CurrentData();
 };
 

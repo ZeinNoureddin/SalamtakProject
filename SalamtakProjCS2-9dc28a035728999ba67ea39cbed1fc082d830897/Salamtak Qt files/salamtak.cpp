@@ -1,6 +1,7 @@
 #include "salamtak.h"
 #include "ui_salamtak.h"
 #include "emergency.h"
+#include "reception.h"
 
 
 
@@ -24,11 +25,16 @@ Salamtak::~Salamtak()
 void Salamtak::on_LoginButton_clicked()
 {
     hide();
-    Homepage* r = new Homepage();
-    r->setWindowIcon(QIcon("../Resources/SalLogo.png"));
-    r->show();
-
-
+   if(ui->UserNameTextbx->text() == "1"){
+       Homepage* r = new Homepage();
+       r->setWindowIcon(QIcon("../Resources/SalLogo.png"));
+       r->show();
+   }
+   else{
+       Reception* q = new Reception();
+       q->setWindowIcon(QIcon("../Resources/SalLogo.png"));
+       q->show();
+   }
 }
 
 

@@ -165,7 +165,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>180</y>
+      <y>210</y>
       <width>331</width>
       <height>151</height>
      </rect>
@@ -200,100 +200,6 @@
       <string>New Column</string>
      </property>
     </column>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>470</y>
-      <width>301</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Approve room and Medicine</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>180</y>
-      <width>201</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Number of tentative nights:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>180</y>
-      <width>113</width>
-      <height>28</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>300</y>
-      <width>101</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Panadol</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Adol</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Brufen</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Streplis</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Zetrec</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>300</y>
-      <width>113</width>
-      <height>28</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>300</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Amount:</string>
-    </property>
    </widget>
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
@@ -331,95 +237,11 @@
      </widget>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>260</y>
-      <width>141</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Add Medicine</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>340</y>
-      <width>141</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Delete Medicine</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>220</y>
-      <width>113</width>
-      <height>28</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>540</x>
-      <y>220</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Amount:</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>220</y>
-      <width>101</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Panadol</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Adol</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Brufen</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Streplis</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Zetrec</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>150</y>
+      <y>180</y>
       <width>151</width>
       <height>20</height>
      </rect>
@@ -431,13 +253,45 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>70</y>
-      <width>160</width>
-      <height>80</height>
+      <x>50</x>
+      <y>80</y>
+      <width>311</width>
+      <height>104</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Type of patient:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="IPRadioButton">
+         <property name="text">
+          <string>Inpatient</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="OPRadioButton">
+         <property name="text">
+          <string>Outpatient</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="EPRadioButton">
+         <property name="text">
+          <string>Emergency patient</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
      <item>
       <widget class="QLabel" name="label_8">
        <property name="text">
@@ -449,6 +303,183 @@
       <widget class="QLineEdit" name="lineEdit_4"/>
      </item>
     </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>370</y>
+      <width>203</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="text">
+        <string>Settle payment for a patient:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="settlePaymentButton">
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="paymentSettledLabel">
+       <property name="text">
+        <string>Payment settled. </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>311</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Number of tentative nights:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="numOfTentNightsTxt"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="approveRoomButton">
+       <property name="text">
+        <string>Approve room</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QComboBox" name="medicineToAdd">
+         <item>
+          <property name="text">
+           <string>Panadol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Brufen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Streplis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Zetrec</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Amount:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="medAmountTxt"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addMedicineButton">
+         <property name="text">
+          <string>Add Medicine</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QComboBox" name="medicineToDelete">
+         <item>
+          <property name="text">
+           <string>Panadol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adol</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Brufen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Streplis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Zetrec</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteMedicineButton">
+         <property name="text">
+          <string>Delete Medicine</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="processDone">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>340</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>processDone</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

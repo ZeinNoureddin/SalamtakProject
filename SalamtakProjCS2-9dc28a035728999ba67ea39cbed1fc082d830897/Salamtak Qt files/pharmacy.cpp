@@ -1,6 +1,6 @@
 #include "pharmacy.h"
 
-// PHARMACY ITEM METHODS
+// PHARMACY ITEM IMPLEMENTATION
 pharmacyItem::pharmacyItem(){
     price = 0;
     itemName = "";

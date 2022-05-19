@@ -9,11 +9,13 @@ Account::Account(){
     Points = 0;
     isSettled = true;
     lastPaidAmount = 0;
+    medicinePayment = 0;
 }
-Account::Account(float OP, int P){
+Account::Account(float OP, int P, float MP){
     outstandingPay = OP;
     Points = P;
     lastPaidAmount = 0;
+    medicinePayment = MP;
 }
 bool Account::choosePayment(QString paymentMethod, float outstandingPay){
     if(paymentMethod == "E-Wallet")
@@ -54,7 +56,12 @@ float Account::getLastPaidAmount(){
 void Account::setLastPaidAmount(float LPA){
     lastPaidAmount = LPA;
 }
-
+void Account::setMedicinePayment(float P){
+    medicinePayment = P;
+}
+float Account::getMedicinePayment(){
+    return medicinePayment;
+}
 // WALLET FUNCTION IMPLEMENTATIONS
 Wallet::Wallet(){
     Balance = 0;
@@ -98,6 +105,6 @@ bool Credit::Pay(float amount){
 }
 
 // ACCOUNTANT CLASS IMPLEMENTATIONS
-void Accountant::settleAccount(Account &accToSettle){
-    accToSettle.setOutstandingPay(0);
+void Accountant::settleAccount(Account* accToSettle){
+    accToSettle->setOutstandingPay(0);
 }

@@ -45,9 +45,10 @@ class Account{
     Wallet patientWallet;
     Cash patientCash;
     float lastPaidAmount;
+    float medicinePayment;
 public:
     Account();
-    Account(float OP, int P);
+    Account(float OP, int P, float MP);
     bool redeemPoints();
     bool choosePayment(QString paymentMethod, float outstandingPay);
     float getOutstandingPay();
@@ -57,12 +58,14 @@ public:
     int getPoints();
     void setLastPaidAmount(float LPA);
     float getLastPaidAmount();
+    void setMedicinePayment(float P);
+    float getMedicinePayment();
 };
 
 // ACCOUNTANT CLASS:
 class Accountant{
 public:
-    void settleAccount(Account &accToSettle);
+    void settleAccount(Account* accToSettle);
 };
 
 #endif // PAYMENTACCOUNT_H
