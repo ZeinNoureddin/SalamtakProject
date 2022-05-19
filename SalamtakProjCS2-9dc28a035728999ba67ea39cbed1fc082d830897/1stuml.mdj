@@ -26558,13 +26558,30 @@
 											"height": 13,
 											"text": "+isInsured: bool",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGA3Z/heBvKT+o=",
+											"_parent": {
+												"$ref": "AAAAAAGAVo4sS44Vq94="
+											},
+											"model": {
+												"$ref": "AAAAAAGA3Z/hQxs0nNo="
+											},
+											"font": "Arial;13;0",
+											"left": 1085,
+											"top": 497,
+											"width": 171.24072265625,
+											"height": 13,
+											"text": "+medicinePayment: float",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1080,
 									"top": 417,
 									"width": 181.24072265625,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -26587,7 +26604,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1085,
-											"top": 505,
+											"top": 520,
 											"width": 171.24072265625,
 											"height": 13,
 											"text": "+ShowBalance()",
@@ -26604,7 +26621,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1085,
-											"top": 520,
+											"top": 535,
 											"width": 171.24072265625,
 											"height": 13,
 											"text": "+RedeemPoints()",
@@ -26621,7 +26638,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1085,
-											"top": 535,
+											"top": 550,
 											"width": 171.24072265625,
 											"height": 13,
 											"text": "+DisplayPoints()",
@@ -26630,7 +26647,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 1080,
-									"top": 500,
+									"top": 515,
 									"width": 181.24072265625,
 									"height": 53
 								},
@@ -27763,295 +27780,6 @@
 							},
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAGAVpvszbi3d80="
-							}
-						},
-						{
-							"_type": "UMLClassView",
-							"_id": "AAAAAAGA18aHtg0ctwY=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"model": {
-								"$ref": "AAAAAAGA18aHtA0aI1E="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAGA18aHtg0dtRs=",
-									"_parent": {
-										"$ref": "AAAAAAGA18aHtg0ctwY="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18aHtA0aI1E="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGA18aHtg0ecNI=",
-											"_parent": {
-												"$ref": "AAAAAAGA18aHtg0dtRs="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 64,
-											"top": -80,
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGA18aHtg0fTJ4=",
-											"_parent": {
-												"$ref": "AAAAAAGA18aHtg0dtRs="
-											},
-											"font": "Arial;13;1",
-											"left": 2093,
-											"top": 407,
-											"width": 140.87353515625,
-											"height": 13,
-											"text": "pharmacyItemQuantity"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGA18aHtg0gItY=",
-											"_parent": {
-												"$ref": "AAAAAAGA18aHtg0dtRs="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 64,
-											"top": -80,
-											"width": 73.67724609375,
-											"height": 13,
-											"text": "(from Model)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGA18aHtg0hgrY=",
-											"_parent": {
-												"$ref": "AAAAAAGA18aHtg0dtRs="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 64,
-											"top": -80,
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 2088,
-									"top": 400,
-									"width": 150.87353515625,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAGA18aHtg0ecNI="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAGA18aHtg0fTJ4="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAGA18aHtg0gItY="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAGA18aHtg0hgrY="
-									}
-								},
-								{
-									"_type": "UMLAttributeCompartmentView",
-									"_id": "AAAAAAGA18aHtg0iuyg=",
-									"_parent": {
-										"$ref": "AAAAAAGA18aHtg0ctwY="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18aHtA0aI1E="
-									},
-									"subViews": [
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGA18eTIhQc6gY=",
-											"_parent": {
-												"$ref": "AAAAAAGA18aHtg0iuyg="
-											},
-											"model": {
-												"$ref": "AAAAAAGA18eS+hN6SlA="
-											},
-											"font": "Arial;13;0",
-											"left": 2093,
-											"top": 430,
-											"width": 140.87353515625,
-											"height": 13,
-											"text": "-quantityInPharmacy: int",
-											"horizontalAlignment": 0
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 2088,
-									"top": 425,
-									"width": 150.87353515625,
-									"height": 23
-								},
-								{
-									"_type": "UMLOperationCompartmentView",
-									"_id": "AAAAAAGA18aHtw0j70M=",
-									"_parent": {
-										"$ref": "AAAAAAGA18aHtg0ctwY="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18aHtA0aI1E="
-									},
-									"font": "Arial;13;0",
-									"left": 2088,
-									"top": 448,
-									"width": 150.87353515625,
-									"height": 10
-								},
-								{
-									"_type": "UMLReceptionCompartmentView",
-									"_id": "AAAAAAGA18aHtw0k3tI=",
-									"_parent": {
-										"$ref": "AAAAAAGA18aHtg0ctwY="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18aHtA0aI1E="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 32,
-									"top": -40,
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLTemplateParameterCompartmentView",
-									"_id": "AAAAAAGA18aHtw0lr6E=",
-									"_parent": {
-										"$ref": "AAAAAAGA18aHtg0ctwY="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18aHtA0aI1E="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 32,
-									"top": -40,
-									"width": 10,
-									"height": 10
-								}
-							],
-							"font": "Arial;13;0",
-							"containerChangeable": true,
-							"left": 2088,
-							"top": 400,
-							"width": 150.87353515625,
-							"height": 72,
-							"nameCompartment": {
-								"$ref": "AAAAAAGA18aHtg0dtRs="
-							},
-							"attributeCompartment": {
-								"$ref": "AAAAAAGA18aHtg0iuyg="
-							},
-							"operationCompartment": {
-								"$ref": "AAAAAAGA18aHtw0j70M="
-							},
-							"receptionCompartment": {
-								"$ref": "AAAAAAGA18aHtw0k3tI="
-							},
-							"templateParameterCompartment": {
-								"$ref": "AAAAAAGA18aHtw0lr6E="
-							}
-						},
-						{
-							"_type": "UMLGeneralizationView",
-							"_id": "AAAAAAGA18gWghw26Fk=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"model": {
-								"$ref": "AAAAAAGA18gWgRw0kfM="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGA18gWghw3v5I=",
-									"_parent": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18gWgRw0kfM="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 2054,
-									"top": 459,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGA18gWgxw4V5g=",
-									"_parent": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18gWgRw0kfM="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 2056,
-									"top": 474,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGA18gWgxw5LDA=",
-									"_parent": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"model": {
-										"$ref": "AAAAAAGA18gWgRw0kfM="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 2049,
-									"top": 430,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGA18gWghw26Fk="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAF/t/rAP3ZbOWM="
-							},
-							"tail": {
-								"$ref": "AAAAAAGA18aHtg0ctwY="
-							},
-							"lineStyle": 1,
-							"points": "2087:446;2017:456",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAGA18gWghw3v5I="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAGA18gWgxw4V5g="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAGA18gWgxw5LDA="
 							}
 						}
 					]
@@ -33987,7 +33715,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF/xfSs9gDlQkI="
 									},
-									"name": "Account &accToSettle"
+									"name": "Account &accToSettle",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -34591,6 +34320,15 @@
 							},
 							"name": "isInsured",
 							"type": "bool"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGA3Z/hQxs0nNo=",
+							"_parent": {
+								"$ref": "AAAAAAGAVo4sSo4NfNs="
+							},
+							"name": "medicinePayment",
+							"type": "float"
 						}
 					],
 					"operations": [

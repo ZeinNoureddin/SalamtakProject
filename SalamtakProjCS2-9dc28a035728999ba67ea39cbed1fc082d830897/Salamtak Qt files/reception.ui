@@ -332,7 +332,7 @@
      <item>
       <widget class="QPushButton" name="settlePaymentButton">
        <property name="text">
-        <string>PushButton</string>
+        <string>Settle payment</string>
        </property>
       </widget>
      </item>

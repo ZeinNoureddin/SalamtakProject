@@ -15,6 +15,9 @@ public:
     explicit roomReservation(QWidget *parent = nullptr);
     ~roomReservation();
 
+private slots:
+    void on_ProceedToPaymentButton_clicked();
+
 private:
     Ui::roomReservation *ui;
 };

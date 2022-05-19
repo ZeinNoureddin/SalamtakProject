@@ -13,6 +13,7 @@ SOURCES += \
     currentdata.cpp \
     emergency.cpp \
     emergencypatient.cpp \
+    emergencypayment.cpp \
     homepage.cpp \
     inpatient.cpp \
     invoice.cpp \
@@ -38,6 +39,7 @@ HEADERS += \
     currentdata.h \
     emergency.h \
     emergencypatient.h \
+    emergencypayment.h \
     homepage.h \
     inpatient.h \
     invoice.h \
@@ -60,6 +62,7 @@ HEADERS += \
 FORMS += \
     clinicreserve.ui \
     emergency.ui \
+    emergencypayment.ui \
     homepage.ui \
     invoice.ui \
     labreserve.ui \

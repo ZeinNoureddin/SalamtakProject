@@ -26,6 +26,8 @@ private slots:
 
     //void on_LabButton_clicked();
 
+    void on_payForEmergencyButton_clicked();
+
 private:
     Ui::Homepage *ui;
 };
